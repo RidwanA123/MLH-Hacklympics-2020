@@ -1,5 +1,6 @@
-# MLH-Hacklympics-2020
-#Inspiration
+# SportChat App
+
+# Inspiration
 The inspiration for this project we are huge soccer fans and we noticed that it was difficult to have a chat with like minded friends and also watch the scores and have the stats because we were always having to switch between tabs to monitor all of our different sites and chats. We wanted a single place for everything we wanted while watching the game.
 
 # What it does
