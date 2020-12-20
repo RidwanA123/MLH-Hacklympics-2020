@@ -1,0 +1,133 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.v2_2 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(38,38,38,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_5 {
+  width: 100%;
+  height: 156px;
+  background: rgba(74,74,74,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v25_9 {
+  width: 100%;
+  height: 179px;
+  background: rgba(74,74,74,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v5_0 {
+  width: 661px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 207px;
+  left: 39px;
+  font-family: Rubik;
+  font-weight: Bold;
+  font-size: 85px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_2 {
+  width: 518px;
+  height: 110px;
+  background: rgba(74,74,74,1);
+  opacity: 1;
+  position: absolute;
+  top: 330px;
+  left: 39px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v5_3 {
+  width: 518px;
+  height: 110px;
+  background: rgba(74,74,74,1);
+  opacity: 1;
+  position: absolute;
+  top: 469px;
+  left: 39px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v5_5 {
+  width: 964px;
+  height: 85px;
+  background: url("../images/v5_5.png");
+  opacity: 1;
+  position: absolute;
+  top: 949px;
+  left: 529px;
+  border: 1px solid rgba(0,0,0,1);
+}
+.v10_12 {
+  width: 100%;
+  height: 897px;
+  background: rgba(24,80,132,1);
+  opacity: 1;
+  position: absolute;
+  top: 700px;
+  left: 216px;
+  border: 1px solid rgba(0,0,0,1);
+}
+.v5_6 {
+  width: 22px;
+  height: 50px;
+  background: url("../images/v5_6.png");
+  opacity: 1;
+  position: absolute;
+  top: 455px;
+  left: 1256px;
+  border: 1px solid rgba(0,0,0,1);
+}
+.name {
+  color: #fff;
+}
+.v29_87 {
+  width: 384px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 920px;
+  left: 1036px;
+  font-family: Rubik;
+  font-weight: Medium;
+  font-size: 48px;
+  opacity: 1;
+  text-align: right;
+}
+.v28_21 {
+  width: 328px;
+  height: 158px;
+  background: rgba(255,255,255,0);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
