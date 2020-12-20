@@ -1,18 +1,25 @@
 
 
-var x = 0;
+appicon = "" //Icon 
 
+const customTitlebar = require('custom-electron-titlebar'); //electron titlebar
 
+let MyTitleBar = new customTitlebar.Titlebar({    //titlebar properties
+    backgroundColor: customTitlebar.Color.fromHex('#03a9f4'),
+    shadow: true,
+    icon: appicon
+});
 
-function text() {
-    document.getElementById("boomer").innerHTML = "Username recieved is " + document.getElementById("username").value; 
+MyTitleBar.updateTitle('SportChat'); //titlebar name
+function text() {                      //login
+    
 }
 
 function showsignup() {
     document.getElementById("newuser").type = "text"
     document.getElementById("newpass").type = "password"
     document.getElementById("submit").hidden = false
-    document.getElementById("signuplink").innerHTML = ""
+    document.getElementById("signuplink").hidden = true
     document.getElementById("username").type = "hidden"
     document.getElementById("Password").type = "hidden"
     document.getElementById("sign in").hidden = true
@@ -24,7 +31,7 @@ function backtologin() {
     document.getElementById("newuser").type = "hidden"
     document.getElementById("newpass").type = "hidden"
     document.getElementById("submit").hidden = true
-    document.getElementById("signuplink").innerHTML = "Don't have an account?"
+    document.getElementById("signuplink").hidden = false
     document.getElementById("username").type = "text"
     document.getElementById("Password").type = "password"
     document.getElementById("sign in").hidden = false
