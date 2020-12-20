@@ -1,0 +1,30 @@
+def get_league_table(league_string):
+    """This function takes the name of the league, and returns each teams wins, losses, goals for, goals against and
+    points gathered respectively."""
+    from Leagues_and_Teams import leagues
+    import sportsreference.fb.team as fb
+
+    teams=leagues[league_string] #array of teams
+    team_dic={}
+    attributes_to_get=["record","goals_scored","goals_against","points"]
+
+    # team_dic[team]= [wins,draws,losses,goals for, goals against, goal differece, points]
+
+    for team_name in teams:
+        team_object=fb.Team(team_name)
+        for a in attributes_to_get:
+            attribute=getattr(team_object,a) #getting the attribute
+
+            if a=="record":
+                team_dic[team_name]=[attribute[0],attribute[1],attribute[2]]
+            else:
+                team_dic[team_name].append(attribute)
+
+            if a=="goals_against":
+                attribute=team_dic[team_name][3]-team_dic[team_name][4]
+                team_dic[team_name].append(attribute)
+
+    return (team_dic)
+
+
+

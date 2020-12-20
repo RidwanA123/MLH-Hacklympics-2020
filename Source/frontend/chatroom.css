@@ -13,6 +13,23 @@
   left: 0px;
   overflow: hidden;
 }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 1000px;  
+    margin-left: 30px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
 .v2_5 {
   width: 100%;
   height: 156px;
@@ -222,6 +239,8 @@
   border-bottom-left-radius: 58px;
   border-bottom-right-radius: 58px;
   overflow: hidden;
+  text-align:center;
+  font-size:20px;
 }
 .v29_26 {
   width: 920px;
@@ -293,7 +312,49 @@
   border-bottom-right-radius: 34px;
   overflow: hidden;
 }
-.v45_4 {
+.button1 {
+    width: 120px;
+    height: 120px;
+    background: rgba(104,104,104,1);
+    opacity: 1;
+    position: absolute;
+    top: 800px;
+    left: 160px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    overflow: hidden;
+}
+.button2 {
+    width: 120px;
+    height: 120px;
+    background: rgba(104,104,104,1);
+    opacity: 1;
+    position: absolute;
+    top: 800px;
+    left: 680px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    overflow: hidden;
+}
+.button3 {
+    width: 70px;
+    height: 120px;
+    background: rgba(104,104,104,1);
+    opacity: 1;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    overflow: hidden;
+}
+    .v45_4 {
   width: 420px;
   height: 288px;
   background: rgba(104,104,104,1);
@@ -356,4 +417,14 @@
   font-size: 250px;
   opacity: 1;
   text-align: center;
+}
+.container {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+.btn-holder {position: absolute;
+right:    0;
+bottom:   0;
 }

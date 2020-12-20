@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+    <link href="./league.css" rel="stylesheet" />
+   
+    <div style="overflow-x:auto;">
+        <table>
+            <tr><td>1. köln</td><td>2</td><td>0</td><td>5</td><td>13</td><td>21</td><td>-8</td><td>11</td></tr>
+            <tr><td>1. union berlin</td><td>5</td><td>0</td><td>6</td><td>27</td><td>18</td><td>9</td><td>21</td></tr>
+            <tr><td>union berlin</td><td>5</td><td>0</td><td>6</td><td>27</td><td>18</td><td>9</td><td>21</td></tr>
+            <tr><td>1. fsv mainz 05</td><td>1</td><td>0</td><td>3</td><td>12</td><td>26</td><td>-14</td><td>6</td></tr>
+            <tr><td>mainz 05</td><td>1</td><td>0</td><td>3</td><td>12</td><td>26</td><td>-14</td><td>6</td></tr>
+            <tr><td>arminia bielefeld</td><td>3</td><td>0</td><td>1</td><td>9</td><td>23</td><td>-14</td><td>10</td></tr>
+            <tr><td>bayer 04 leverkusen</td><td>8</td><td>0</td><td>4</td><td>28</td><td>12</td><td>16</td><td>28</td></tr>
+            <tr><td>bayer leverkusen</td><td>8</td><td>0</td><td>4</td><td>28</td><td>12</td><td>16</td><td>28</td></tr>
+            <tr><td>borussia dortmund</td><td>7</td><td>0</td><td>1</td><td>26</td><td>18</td><td>8</td><td>22</td></tr>
+            <tr><td>eintracht frankfurt</td><td>3</td><td>0</td><td>8</td><td>21</td><td>22</td><td>-1</td><td>17</td></tr>
+            <tr><td>08 homburg</td><td>8</td><td>0</td><td>8</td><td>33</td><td>51</td><td>-18</td><td>24</td></tr>
+            <tr><td>augsburg</td><td>4</td><td>0</td><td>4</td><td>15</td><td>19</td><td>-4</td><td>16</td></tr>
+            <tr><td>schalke 04</td><td>0</td><td>0</td><td>4</td><td>8</td><td>36</td><td>-28</td><td>4</td></tr>
+            <tr><td>hertha bsc</td><td>3</td><td>0</td><td>4</td><td>19</td><td>20</td><td>-1</td><td>13</td></tr>
+            <tr><td>rb leipzig</td><td>8</td><td>0</td><td>4</td><td>24</td><td>9</td><td>15</td><td>28</td></tr>
+            <tr><td>sg wattenscheid 09</td><td>6</td><td>0</td><td>1</td><td>48</td><td>70</td><td>-22</td><td>23</td></tr>
+            <tr><td>tsg 1899 hoffenheim</td><td>4</td><td>0</td><td>3</td><td>21</td><td>23</td><td>-2</td><td>15</td></tr>
+            <tr><td>vfb stuttgart</td><td>4</td><td>0</td><td>6</td><td>26</td><td>19</td><td>7</td><td>18</td></tr>
+            <tr><td>stuttgart</td><td>4</td><td>0</td><td>6</td><td>26</td><td>19</td><td>7</td><td>18</td></tr>
+
+
+
+
+        </table>
+        <a href="chatroom.html">Click To Go Back</a>
+    </div>
+</body>
+</html>
+<script>
+ 
+       appicon = "../bin/Logo.png" //Icon
+
+        const customTitlebar = require('custom-electron-titlebar'); //electron titlebar
+
+    let MyTitleBar = new customTitlebar.Titlebar({    //titlebar properties
+            backgroundColor: customTitlebar.Color.fromHex('#03a9f4'),
+        shadow: true,
+        icon: appicon
+    });
+
+    MyTitleBar.updateTitle('SportChat'); //titlebar name
+    MyTitleBar.setHorizontalAlignment('left');
+
+</script>
