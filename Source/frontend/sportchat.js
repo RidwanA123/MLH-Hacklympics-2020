@@ -20,7 +20,7 @@ function createWindow() {
         slashes: true
     }))
     
-    setTimeout(() => { win.setProgressBar(10) }, 3000) 
+    
 }
 
 app.on('ready', createWindow)
